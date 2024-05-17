@@ -4,7 +4,7 @@ session_start();
 $code = $_GET['code'];
 
 $client_id = "344011bf4a90408ca1e9f645061e8592 "; #found here https://developer.spotify.com/dashboard/applications
-$client_secret = "0e7bb31111d74f3bb9e6d04bd498ddfa"; # ^^
+$client_secret = ""; # ^^
 
 $b64_echoded = base64_encode($client_id.":".$client_secret);
 echo($b64_echoded."<br>");
@@ -19,7 +19,7 @@ $data = array(
     'grant_type'   => 'authorization_code',
     'code'         => $code,
     'client_id'         => "344011bf4a90408ca1e9f645061e8592",
-    'client_secret'         => "0e7bb31111d74f3bb9e6d04bd498ddfa",
+    'client_secret'         => "",
 );
 #$body = "grant_type=authorization_code&code=".$code."&redirect_uri=http://localhost/artify/backend/getcode.php&client_id=".$client_id."&client_secret=".$client_secret;
 
