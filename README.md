@@ -5,3 +5,10 @@ Since Artify is a "fun" project made mainly for school purposes it currently (an
 
 <h3>Domain:</h3>
 http://vps-030fba64.vps.ovh.net/
+
+<h4>Favourite songs:</h4>
+![image](https://github.com/user-attachments/assets/4bf50fcd-1466-48fa-bcd3-bbba16b19d32)
+
+<h4>Song recommendations:</h4>
+![image](https://github.com/user-attachments/assets/912906e0-689e-459b-ae93-bd346e3d2edf)
+
